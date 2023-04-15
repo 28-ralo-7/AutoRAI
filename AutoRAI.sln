@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoRAI.API", "RAIAPP\AutoRAI.API.csproj", "{A1D5D9A1-B19E-4944-9F91-71B629987EF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoRAI.CoreLib", "CoreLib\AutoRAI.CoreLib.csproj", "{E2D1A66F-8260-4A17-A2C8-3B1BD6A110E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoRAI.Tests", "UnitTestProject1\AutoRAI.Tests.csproj", "{A1654903-3C5B-4247-90A2-86BAF3531B5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1D5D9A1-B19E-4944-9F91-71B629987EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D5D9A1-B19E-4944-9F91-71B629987EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D5D9A1-B19E-4944-9F91-71B629987EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D5D9A1-B19E-4944-9F91-71B629987EF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2D1A66F-8260-4A17-A2C8-3B1BD6A110E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D1A66F-8260-4A17-A2C8-3B1BD6A110E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D1A66F-8260-4A17-A2C8-3B1BD6A110E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D1A66F-8260-4A17-A2C8-3B1BD6A110E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1654903-3C5B-4247-90A2-86BAF3531B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1654903-3C5B-4247-90A2-86BAF3531B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1654903-3C5B-4247-90A2-86BAF3531B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1654903-3C5B-4247-90A2-86BAF3531B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A91F256-D3DF-4A96-83C1-59D2438DA25C}
+	EndGlobalSection
+EndGlobal
